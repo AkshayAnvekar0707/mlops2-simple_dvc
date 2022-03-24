@@ -45,6 +45,10 @@ git branch - m main
 git push origin main
 # Using this we will push our code to git repo
 
+In params.yaml we will store all the data and model related info. Such as data training and models.
+
+
+
 
 
 
