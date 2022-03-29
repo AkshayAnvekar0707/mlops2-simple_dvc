@@ -5,6 +5,7 @@ create requirement file and add packages
 # dvc
 # dvc[gdrive]
 # sklearn
+# Pandas
 ```bash
 
 
@@ -28,7 +29,7 @@ dvc init
 
 dvc add dataset/winequality.csv # this will add csv file to dvc
 
-git add . # things in working directory will be added to stagig area
+git add . # things in working directory will be added to stageing area
 
 git commit -m "first commit" # The git commit command captures a snapshot of the project's currently staged changes. Committed snapshots can be thought of as “safe” versions of a project—Git will never change them unless you explicitly ask it to.
 
@@ -46,6 +47,13 @@ git push origin main
 # Using this we will push our code to git repo
 
 In params.yaml we will store all the data and model related info. Such as data training and models.
+
+# In get_data.py
+ First we will add read function to read all configs from yaml file
+ Then in get data function we will mention from which key we have to read the data that is basically directory
+ 
+
+
 
 
 
