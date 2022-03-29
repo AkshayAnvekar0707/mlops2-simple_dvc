@@ -52,6 +52,13 @@ In params.yaml we will store all the data and model related info. Such as data t
  First we will add read function to read all configs from yaml file
  Then in get data function we will mention from which key we have to read the data that is basically directory
  
+# We will use argpharse to get the data!
+
+# Now we have to load the data, we will load original data and we will save it in raw data folder for further processing.  We will save data with minimal modeification needed and we will use this data in any further process.
+
+# Now we have to split the data for training and testing
+
+
 
 
 
